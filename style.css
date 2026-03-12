@@ -284,6 +284,11 @@ nav {
 
 .skill-icon {
   font-size: 1.1rem;
+  color: var(--accent);
+}
+
+i.skill-icon {
+  font-style: normal;
 }
 
 /* ===== Tools ===== */
@@ -309,6 +314,12 @@ nav {
 .tool-card .tool-icon {
   font-size: 1.6rem;
   margin-bottom: 10px;
+  color: var(--accent);
+}
+
+.tool-card i.tool-icon {
+  display: block;
+  font-style: normal;
 }
 
 .tool-card .tool-name {
@@ -397,6 +408,12 @@ nav {
 
 .contact-link .contact-icon {
   font-size: 1.4rem;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.contact-link i.contact-icon {
+  font-style: normal;
 }
 
 .contact-link .contact-label {
